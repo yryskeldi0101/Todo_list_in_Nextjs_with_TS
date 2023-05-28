@@ -1,0 +1,28 @@
+{
+  "task": [
+    {
+      "id": "23283d5a-954e-484b-8d84-5dc2bc35e9e9",
+      "text": "Get up at 8:00"
+    },
+    {
+      "id": "2cd21af3-f7ea-4cc5-ae57-fea7ccc3acb6",
+      "text": "Learn Next.js"
+    },
+    {
+      "id": "1873e9fe-1214-4af8-be8c-dcd2077ddf83",
+      "text": "Learn Nodejs"
+    },
+    {
+      "id": "8f6a5683-f74d-4ec6-94d4-3dde894d6b97",
+      "text": "Learn Python"
+    },
+    {
+      "id": "d1c12e59-0a89-49ed-954c-b652a1993756",
+      "text": "Learn React"
+    },
+    {
+      "id": "c43abe83-9ab8-4649-a839-05ca46cde2a3",
+      "text": "Learn Redux Toolkit"
+    }
+  ]
+}
