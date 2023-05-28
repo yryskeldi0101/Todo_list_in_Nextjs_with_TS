@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yryskeldi0101.github.io/Todo_list_in_Nextjs_with_TS",
   "name": "todo-list-in-nextjs",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "json-server": "json-server --watch data/todos.json --port 3001"
+    "json-server": "json-server --watch data/todos.json --port 3001",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/node": "20.1.7",
@@ -15,6 +18,7 @@
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
     "daisyui": "^2.51.6",
+    "gh-pages": "^5.0.0",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
